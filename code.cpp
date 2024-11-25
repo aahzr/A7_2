@@ -28,6 +28,7 @@ int main () {
 	cout << "|8. Keluar                 |" << endl;
 	cout << "============================\n";
 	cout << "|Pilih menu: ";
+	cout << "tes tes" << endl;
 
 return 0;
 }
