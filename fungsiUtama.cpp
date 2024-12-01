@@ -11,12 +11,14 @@ struct daftar {
 };
 
 int main () {
+	double anggaran = 2000000;
+
 	cout << "\n============================\n";
 	cout << "|   Menu Belanja Bulanan   |\n";
 	cout << "|        Kelompok 2        |";
 	cout << "\n============================\n";
 
-	cout << "|Anggaran saat ini: "<< endl;
+	cout << "|Anggaran saat ini: " << fixed << setprecision(2) << anggaran << endl;
 	cout << "============================\n";
 	cout << "|1. Tambah Barang          |" << endl;
 	cout << "|2. Hapus Barang           |" << endl;
