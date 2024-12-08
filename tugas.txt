@@ -1,1 +1,0 @@
-list belanja, lalu setelah full, bisa langsung dibeli dan semua list kosong, tapi tersimpan ke file list belanja bulan 1 misalnya

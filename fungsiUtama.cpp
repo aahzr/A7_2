@@ -12,23 +12,26 @@ struct daftar {
 
 int main () {
 	double anggaran = 2000000;
+	string bulan = "November";
 
 	cout << "\n============================\n";
-	cout << "|   Menu Belanja Bulanan   |\n";
-	cout << "|        Kelompok 2        |";
-	cout << "\n============================\n";
-
-	cout << "|Anggaran saat ini: " << fixed << setprecision(2) << anggaran << endl;
-	cout << "============================\n";
-	cout << "|1. Tambah Barang          |" << endl;
-	cout << "|2. Hapus Barang           |" << endl;
-	cout << "|3. Tampilkan Daftar       |" << endl;
-	cout << "|4. Hitung Total Biaya     |" << endl;
-	cout << "|5. Ubah Anggaran          |" << endl;
-	cout << "|6. Simpan Ke File         |" << endl;
-	cout << "|7. Pulihkan Dari File     |" << endl;
-	cout << "|8. Keluar                 |" << endl;
-	cout << "============================\n";
-	cout << "|Pilih menu: ";
+    cout << "|      Belanja Bulanan     |\n";
+    cout << "|        Kelompok 2        |";
+    cout << "\n============================\n";
+    cout << "| Anggaran saat ini: " << fixed << setprecision(2) << anggaran << endl;
+    cout << "| Bulan: " << bulan << endl;
+    cout << "============================\n";
+    cout << "| 1. Ubah Bulan            |" << endl;
+    cout << "| 2. Ubah Anggaran         |" << endl;
+    cout << "| 3. Tambah Barang         |" << endl;
+    cout << "| 4. Hapus Barang          |" << endl;
+    cout << "| 5. Lihat Daftar Barang   |" << endl;
+    cout << "| 6. Total Biaya           |" << endl;
+    cout << "| 7. Simpan Ke File        |" << endl;
+    cout << "| 8. Pulihkan Dari File    |" << endl;
+    cout << "| 9. Checkout              |" << endl;
+    cout << "| 10. Keluar               |" << endl;
+    cout << "============================\n";
+    cout << "| Pilih menu: ";
 return 0;
 }

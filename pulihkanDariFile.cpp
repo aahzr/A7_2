@@ -10,7 +10,7 @@ struct Barang {
 };
 
 int pulihkanDariFile(Barang daftar[], double &anggaran) {
-    ifstream file("belanja.txt");
+    ifstream file("list_belanja.txt");
     if (!file) {
         cout << "File tidak ditemukan atau kosong.\n";
         return 0;

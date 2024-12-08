@@ -10,7 +10,7 @@ struct Barang {
 };
 
 void simpanKeFile(Barang daftar[], int n, double anggaran) {
-    ofstream file("belanja.txt");
+    ofstream file("list_belanja.txt");
     if (!file) {
         cout << "Gagal membuka file untuk menyimpan data.\n";
         return;
